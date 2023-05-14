@@ -1,0 +1,32 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #95dada;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.monster-name {
+  font-size: 30px;
+  letter-spacing: 2%;
+}
+.monster-email {
+  font-size: 15px;
+  text-shadow: #95dada;
+}
+.monster-cp {
+  font-size: 20px;
+  color: rgb(226, 148, 119);
+  font-family: "Bigelow Rules", cursive;
+  font-weight: 600;
+}
